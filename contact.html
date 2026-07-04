@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+    <main class="contact-form">
+        <h1 class="contact-header">Contact Me</h1>
+        <form action="submit_form.php" method="POST">
+
+           <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your full name">
+           </div> 
+<br>
+           <div>
+<label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your email address">
+           </div>
+        <br>    
+<div>
+<label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+</div>
+        
+<div class="contact-actions">
+    <button type="submit">Send Message</button>
+    <button class="back-button">
+        <a href="index.html">Back to Home</a>
+    </button>
+</div>
+        </form>
+    </main>
+    
+</body>
+</html>
